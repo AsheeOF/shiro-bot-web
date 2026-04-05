@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>♟ Shiro Bot — Términos de Uso</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0a0f; --surface: #12121a; --border: #2a1a3a;
+    --pink: #e91e8c; --white: #f0f0ff; --dim: #5a5a7a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg); color: var(--white);
+    font-family: 'Rajdhani', sans-serif; min-height: 100vh;
+  }
+  body::before {
+    content: ''; position: fixed; inset: 0;
+    background-image:
+      linear-gradient(rgba(233,30,140,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(233,30,140,0.03) 1px, transparent 1px);
+    background-size: 60px 60px; pointer-events: none; z-index: 0;
+  }
+  nav {
+    position: fixed; top: 0; left: 0; right: 0;
+    padding: 1.2rem 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(10,10,15,0.9);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border); z-index: 100;
+  }
+  .nav-logo { font-family: 'Cinzel', serif; font-size: 1.1rem; color: var(--pink); letter-spacing: 0.15em; text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; }
+  .nav-links a { color: var(--dim); text-decoration: none; font-size: 0.9rem; letter-spacing: 0.1em; text-transform: uppercase; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--pink); }
+
+  .page {
+    position: relative; z-index: 1;
+    max-width: 760px; margin: 0 auto;
+    padding: 8rem 2rem 6rem;
+  }
+  .page-label { font-size: 0.7rem; letter-spacing: 0.4em; text-transform: uppercase; color: var(--pink); margin-bottom: 0.8rem; }
+  h1 { font-family: 'Cinzel', serif; font-size: 2.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+  .page-date { font-size: 0.8rem; color: var(--dim); margin-bottom: 3rem; letter-spacing: 0.1em; }
+
+  .doc-section { margin-bottom: 2.5rem; }
+  h2 {
+    font-family: 'Cinzel', serif; font-size: 1.1rem;
+    color: var(--pink); margin-bottom: 0.8rem;
+    padding-bottom: 0.5rem; border-bottom: 1px solid var(--border);
+    letter-spacing: 0.05em;
+  }
+  p { font-size: 1rem; color: #a0a0c0; line-height: 1.8; margin-bottom: 1rem; }
+  ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+  li { font-size: 1rem; color: #a0a0c0; line-height: 1.8; margin-bottom: 0.3rem; }
+  a { color: var(--pink); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .back-link {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    color: var(--dim); font-size: 0.85rem; letter-spacing: 0.1em;
+    text-transform: uppercase; text-decoration: none;
+    margin-bottom: 2rem; transition: color 0.2s;
+  }
+  .back-link:hover { color: var(--pink); }
+
+  footer { position: relative; z-index: 1; border-top: 1px solid var(--border); padding: 2rem; text-align: center; }
+  footer p { font-size: 0.8rem; color: var(--dim); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">♟ SHIRO</a>
+  <div class="nav-links">
+    <a href="index.html">Inicio</a>
+    <a href="privacy.html">Privacidad</a>
+  </div>
+</nav>
+
+<div class="page">
+  <a href="index.html" class="back-link">← Volver</a>
+  <div class="page-label">// Legal</div>
+  <h1>Términos de Uso</h1>
+  <p class="page-date">Última actualización: Enero 2025</p>
+
+  <div class="doc-section">
+    <h2>1. Aceptación</h2>
+    <p>Al agregar Shiro Bot a tu servidor de Discord o interactuar con él, aceptas estos Términos de Uso. Si no estás de acuerdo, no uses el bot.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>2. Descripción del servicio</h2>
+    <p>Shiro Bot es un bot de Discord de uso gratuito que ofrece:</p>
+    <ul>
+      <li>Sistema de rangos y XP por actividad en servidores</li>
+      <li>Recomendaciones de anime mediante inteligencia artificial</li>
+      <li>Información sobre horarios de emisión de anime</li>
+      <li>Contenido temático de No Game No Life</li>
+    </ul>
+  </div>
+
+  <div class="doc-section">
+    <h2>3. Uso aceptable</h2>
+    <p>Te comprometes a no usar Shiro Bot para:</p>
+    <ul>
+      <li>Spam o abuso de comandos de forma masiva</li>
+      <li>Actividades ilegales o que violen los Términos de Servicio de Discord</li>
+      <li>Hostigamiento o daño a otros usuarios</li>
+      <li>Intentar explotar o hackear el bot</li>
+    </ul>
+  </div>
+
+  <div class="doc-section">
+    <h2>4. Datos y privacidad</h2>
+    <p>Shiro Bot almacena únicamente los datos necesarios para su funcionamiento (IDs de usuario, XP y mensajes enviados). No compartimos esta información con terceros. Consulta nuestra <a href="privacy.html">Política de Privacidad</a> para más detalles.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>5. Disponibilidad</h2>
+    <p>Nos esforzamos por mantener el bot disponible 24/7, pero no garantizamos disponibilidad ininterrumpida. Podemos suspender o modificar el servicio en cualquier momento sin previo aviso.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>6. Limitación de responsabilidad</h2>
+    <p>Shiro Bot se provee "tal cual". No somos responsables por daños directos, indirectos o consecuentes derivados del uso del servicio.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>7. Propiedad intelectual</h2>
+    <p>Shiro Bot es un proyecto de fans no oficial. No Game No Life y sus personajes son propiedad de Yuu Kamiya y sus respectivos titulares de derechos. No tenemos afiliación con ellos.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>8. Cambios a los términos</h2>
+    <p>Podemos actualizar estos términos en cualquier momento. El uso continuado del bot implica aceptación de los nuevos términos.</p>
+  </div>
+
+  <div class="doc-section">
+    <h2>9. Contacto</h2>
+    <p>Para preguntas sobre estos términos, abre un issue en nuestro <a href="https://github.com/tu-usuario/shiro-bot" target="_blank">repositorio de GitHub</a>.</p>
+  </div>
+</div>
+
+<footer>
+  <p>♟ Shiro Bot — Proyecto de fans. No afiliado con No Game No Life.</p>
+</footer>
+
+</body>
+</html>
